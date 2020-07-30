@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
         url: 'http://github.com/facebook/react-native'
     });
     
-    return res.send('Hello oxcigy*!');
+    return res.send('Hello World!');
 });
 
 app.listen(3001);
