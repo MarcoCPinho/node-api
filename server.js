@@ -16,6 +16,6 @@ mongoose.connect(
 requireDir('./src/models');
 
 // Rotas
-app.use("/api", require("./src/routes")); //use é um white-card; ele permite receber qualquer tipo de requisição a partir da rota "/api", manda para o arquivo "/src/routes.js"
+app.use("/api", require("./src/routes")); //"use" é um white-card; ele permite receber qualquer tipo de requisição a partir da rota "/api", manda para o arquivo "/src/routes.js"
 
 app.listen(3001);
